@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	Sync
-Summary:	File::Sync perl module
-Summary(pl):	Modu³ perla File::Sync
+Summary:	File::Sync - Perl access to fsync() and sync() function calls
+Summary(pl):	File::Sync - dostêp z Perla do funkcji fsync() i sync()
 Name:		perl-File-Sync
 Version:	0.09
 Release:	6
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4f5aca0ccff4bf28ca1d039e5ed01fa2
@@ -15,10 +16,12 @@ BuildRequires:	perl-devel >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-File::Sync - Perl access to fsync() and sync() function calls.
+File::Sync module provides Perl access to fsync() and sync() function
+calls.
 
 %description -l pl
-File::Sync - umo¿liwia dostêp do funkcji fsync() i sync().
+Modu³ File::Sync umo¿liwia dostêp do funkcji fsync() i sync() z
+poziomu Perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
