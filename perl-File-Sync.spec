@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	File
-%define	pnam	Sync
+%define		pdir	File
+%define		pnam	Sync
 Summary:	File::Sync - Perl access to fsync() and sync() function calls
 Summary(pl):	File::Sync - dostêp z Perla do funkcji fsync() i sync()
 Name:		perl-File-Sync
