@@ -25,7 +25,7 @@ File::Sync - umo¿liwia dostêp do funkcji fsync() i sync().
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make} OPTIMIZE="%{rpmcflags}"
 
 %install
