@@ -3,7 +3,7 @@ Summary:	File-Sync perl module
 Summary(pl):	Modu³ perla File-Sync
 Name:		perl-File-Sync
 Version:	0.09
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
