@@ -9,7 +9,7 @@ Summary:	File::Sync - Perl access to fsync() and sync() function calls
 Summary(pl):	File::Sync - dostêp z Perla do funkcji fsync() i sync()
 Name:		perl-File-Sync
 Version:	0.09
-Release:	6
+Release:	7
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
