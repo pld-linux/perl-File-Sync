@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	Sync
 Summary:	File::Sync - Perl access to fsync() and sync() function calls
-Summary(pl):	File::Sync - dostêp z Perla do funkcji fsync() i sync()
+Summary(pl.UTF-8):   File::Sync - dostÄ™p z Perla do funkcji fsync() i sync()
 Name:		perl-File-Sync
 Version:	0.09
 Release:	7
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 File::Sync module provides Perl access to fsync() and sync() function
 calls.
 
-%description -l pl
-Modu³ File::Sync umo¿liwia dostêp do funkcji fsync() i sync() z
+%description -l pl.UTF-8
+ModuÅ‚ File::Sync umoÅ¼liwia dostÄ™p do funkcji fsync() i sync() z
 poziomu Perla.
 
 %prep
