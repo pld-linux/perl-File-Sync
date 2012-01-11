@@ -8,13 +8,13 @@
 Summary:	File::Sync - Perl access to fsync() and sync() function calls
 Summary(pl.UTF-8):	File::Sync - dostęp z Perla do funkcji fsync() i sync()
 Name:		perl-File-Sync
-Version:	0.09
-Release:	12
+Version:	0.11
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	4f5aca0ccff4bf28ca1d039e5ed01fa2
+# Source0-md5:	8bb0966ff3458699c02fde3d5c799824
 URL:		http://search.cpan.org/dist/File-Sync/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
