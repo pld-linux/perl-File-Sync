@@ -55,6 +55,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/File/Sync.pm
 %dir %{perl_vendorarch}/auto/File/Sync
 %{perl_vendorarch}/auto/File/Sync/autosplit.ix
-%{perl_vendorarch}/auto/File/Sync/Sync.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/File/Sync/Sync.so
 %{_mandir}/man3/*
